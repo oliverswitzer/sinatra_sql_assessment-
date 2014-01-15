@@ -1,0 +1,19 @@
+%h1 Make a new Space Cat
+%form{action: "/spacecats", method: "POST"}
+
+	%label{:for => 'name'}Name
+	%input{id: 'name', type: 'text', name: 'spacecat[name]'} 
+
+	%label{:for => 'home_planet'}Home Planet
+	%input{id: 'home_planet', type: 'text', name: 'spacecat[home_planet]'} 
+
+	%label{:for => 'tagline'}Tagline
+	%input{id: 'tagline', type: 'text', name: 'spacecat[tagline]'} 
+
+	%label{:for => 'superpower'}Superpower
+	%input{type: "radio", id:"superpower", name:"spacecat[superpower]", value:"Nomming"} Nomming
+	%input{type: "radio", id:"superpower", name:"spacecat[superpower]", value:"Meowter Space Meowing"} Meowter Space Meowing
+	%input{type: "radio", id:"superpower", name:"spacecat[superpower]", value:"Sitting in Space Box"} Sitting in Space Box
+	
+
+	%button{type: "submit", value:"Create Spacecat"}Submit
