@@ -24,7 +24,7 @@ Now, answer these questions:
 
 1. What is Sinatra? Where does it run?
 
-2. What is a Gemfile? How do you use it in your Sinatra Applicaiton? Give step by step instructions.
+2. What is a Gemfile? How do you use it in your Sinatra Application? Give step by step instructions.
 
 3. What is an ORM? What are the basic features of an ORM? Why is it helpful?
 
